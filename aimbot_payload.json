@@ -1,16 +1,20 @@
 {
   "garena_user_id": "Garena_User_7721",
   "device_id": "FF_DEVICE_X86_64",
-  "region": "BR",
+  "region": "BR-SA",
+  "dns_server": "8.8.8.8",
   "auth_token": "ae82-f912-bc44-0012-ff9a",
   "aimbot_active": true,
   "aim_target": "HEAD",
   "aim_precision": 100,
   "aim_lock_mode": "MAGNETIC_PULL",
-  "aim_force": 1.5,
+  "aim_force": 2.0,
   "aim_snap": true,
   "aim_fov": 120,
   "aim_smoothing": 0.0,
   "aim_bone_id": "HEAD_BONE",
-  "aim_lock_enabled": true
+  "aim_lock_enabled": true,
+  "hitbox_priority": "MAX_DAMAGE",
+  "recoil_control": 1.0,
+  "sync_rate": "60Hz"
 }
