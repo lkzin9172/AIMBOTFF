@@ -1,0 +1,12 @@
+{
+  "aimbot_active": true,
+  "aim_target": "HEAD",
+  "aim_precision": 100,
+  "aim_lock_mode": "MAGNETIC_PULL",
+  "aim_force": 1.5,
+  "aim_snap": true,
+  "aim_fov": 120,
+  "aim_smoothing": 0.0,
+  "aim_bone_id": "HEAD_BONE",
+  "aim_lock_enabled": true
+}
