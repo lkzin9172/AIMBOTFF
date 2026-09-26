@@ -12,7 +12,5 @@
   "aim_fov": 120,
   "aim_smoothing": 0.0,
   "aim_bone_id": "HEAD_BONE",
-  "aim_lock_enabled": true,
-  "security_status": "bypass_active",
-  "anti_cheat_detected": false
+  "aim_lock_enabled": true
 }
