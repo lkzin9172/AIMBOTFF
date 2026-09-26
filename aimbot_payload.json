@@ -1,22 +1,28 @@
-{{
-  "server_status": "online_24h",
-  "aim_engine": {
-    "aim_mode": "chest_to_head_auto",
-    "recoil_compensation": 1.85,
-    "aim_lock_target": "chest_center",
-    "drag_assist": "max",
-    "sensitivity_multiplier": 1.5
+{
+  "connection_protocol": "https://raw.githubusercontent.com/lkzin9172/LKZIN/refs/heads/main/payload.json",
+  "remote_status": "active",
+  "version_info": {
+    "build": "1.0.9",
+    "engine": "premium_remote",
+    "sync_mode": "fast_response"
   },
-  "visual_engine": {
-    "esp_enabled": true,
-    "antenna_effect": "active_all_players",
-    "player_outline": "enabled",
-    "bone_tracking": "head_and_chest",
-    "distance_esp": true
+  "aim_configuration": {
+    "mode": "chest_to_head_auto",
+    "aim_lock": true,
+    "recoil_control": 1.95,
+    "sensitivity_boost": 1.8,
+    "target_zone": "chest_to_head"
   },
-  "connection_sync": {
+  "visual_configuration": {
+    "esp_status": "enabled",
+    "antenna_effect": "active_all",
+    "player_tracking": "enabled",
+    "bone_tracking": "head_target"
+  },
+  "server_settings": {
     "latency_fix": true,
-    "server_ping": "low",
-    "remote_access": "authorized"
+    "ping_limit": "low",
+    "auto_reconnect": true,
+    "connection_mode": "direct_cloud"
   }
 }
