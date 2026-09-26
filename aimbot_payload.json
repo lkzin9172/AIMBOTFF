@@ -1,20 +1,22 @@
-{
-  "garena_user_id": "Garena_User_7721",
-  "device_id": "FF_DEVICE_X86_64",
-  "region": "BR-SA",
-  "dns_server": "8.8.8.8",
-  "auth_token": "ae82-f912-bc44-0012-ff9a",
-  "aimbot_active": true,
-  "aim_target": "HEAD",
-  "aim_precision": 100,
-  "aim_lock_mode": "MAGNETIC_PULL",
-  "aim_force": 2.0,
-  "aim_snap": true,
-  "aim_fov": 120,
-  "aim_smoothing": 0.0,
-  "aim_bone_id": "HEAD_BONE",
-  "aim_lock_enabled": true,
-  "hitbox_priority": "MAX_DAMAGE",
-  "recoil_control": 1.0,
-  "sync_rate": "60Hz"
+{{
+  "server_status": "online_24h",
+  "aim_engine": {
+    "aim_mode": "chest_to_head_auto",
+    "recoil_compensation": 1.85,
+    "aim_lock_target": "chest_center",
+    "drag_assist": "max",
+    "sensitivity_multiplier": 1.5
+  },
+  "visual_engine": {
+    "esp_enabled": true,
+    "antenna_effect": "active_all_players",
+    "player_outline": "enabled",
+    "bone_tracking": "head_and_chest",
+    "distance_esp": true
+  },
+  "connection_sync": {
+    "latency_fix": true,
+    "server_ping": "low",
+    "remote_access": "authorized"
+  }
 }
